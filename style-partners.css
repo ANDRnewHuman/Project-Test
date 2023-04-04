@@ -481,9 +481,9 @@ body {
 
 .position-div {
     position: absolute;
-    top: 438px;
-    left: 135px;
-    width: 568px;
+    top: 210px;
+    left: 0;
+    width: 555px;
     height: 180px;
 
     display: flex;
