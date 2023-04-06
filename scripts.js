@@ -23,9 +23,6 @@ $("#slider-for").slick({
 $("#slider-nav").slick({
   slidesToShow: 6,
   slidesToScroll: 1,
-  dots: false,
-
+  focusOnSelect: true,
   asNavFor: $("#slider-for"),
-  centerMode: false,
-  focusOnSelect: false,
 });

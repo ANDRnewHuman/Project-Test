@@ -161,6 +161,7 @@ body {
     color: black;
     background: url(./image/body.png);
 
+
 }
 
 .visually-hidden {
@@ -586,22 +587,61 @@ body {
 }
 
 
-
-
 /* modal window Project name */
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    pointer-events: none;
+    opacity: 1;
+
+}
+
+.backdrop-modal {
+    opacity: 0;
+}
+
+.kak-tu-men9-besiLII-TBapb {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+
+
 .modal-conteiner {
-    width: 1450px;
+    position: relative;
+
+
+    width: 1050px;
     height: 820px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 30px;
     padding-right: 30px;
-    padding-left: 436px;
     padding-bottom: 97px;
 
 
 
     background: #FFFFFF;
+
+    /* 
+    pointer-events: all; */
+    /* opacity: 1; */
+}
+
+.is-open-pidr {
+    opacity: 0;
+    /* 
+    pointer-events: none; */
+
+
 }
 
 .title-modal-project {
@@ -706,4 +746,38 @@ body {
     height: 63px;
     margin-right: 14px;
 
+}
+
+.qq {
+    width: 445px;
+
+    margin-top: 350px;
+}
+
+.div-modal-text {
+    margin-right: 58px;
+}
+
+.div-modal-position {
+    display: flex;
+
+}
+
+.ee {
+    height: 100px;
+}
+
+.div-img-modal {
+    position: absolute;
+    top: 0px;
+    left: -600px;
+
+    width: 600px;
+    height: 820px;
+    background: white;
+}
+
+.img-monstr {
+    width: 553px;
+    ;
 }
